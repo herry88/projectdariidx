@@ -13,7 +13,7 @@ class LoginApp extends StatelessWidget {
           alignment: Alignment.center,
           child: Padding(
             padding:
-                const EdgeInsets.symmetric(vertical: 30.0, horizontal: 16.0),
+                const EdgeInsets.symmetric(vertical: 100.0, horizontal: 16.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -100,7 +100,7 @@ class LoginApp extends StatelessWidget {
                   width: double.infinity,
                   child: MaterialButton(
                     onPressed: () {
-                      //navigation
+                      //navigation ke home
                       Navigator.push(
                         context,
                         MaterialPageRoute(
@@ -108,7 +108,7 @@ class LoginApp extends StatelessWidget {
                         ),
                       );
                     },
-                    color: Color(0xff3e57e8),
+                    color: const Color(0xff3e57e8),
                     elevation: 0.0,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12.0),
